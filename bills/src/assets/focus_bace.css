@@ -1,0 +1,44 @@
+/*
+* @Author: hp
+* @Date:   2017-03-11 14:41:51
+* @Last Modified by:   hp
+* @Last Modified time: 2017-03-11 22:02:10
+*/
+body{
+	background-color: #F1E3E3;
+}
+body,p,ul,ol,li,dt,dd,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 16px;
+	font-family: 微软雅黑;
+}
+a{
+	text-decoration: none;
+	color: #999999;
+}
+input,img{
+	vertical-align: middle;
+	border: 0 none;
+	outline-style: none;
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after{
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix{
+	zoom: 1;
+}
+.mt30{
+	margin-top: 40px;
+}
+.mb50{
+	margin-bottom: 60px;
+}
